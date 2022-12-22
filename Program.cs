@@ -33,9 +33,12 @@ namespace cHeaders
             Console.WriteLine("Для работы вызовите с аргументами-названием заголовка.");
             Console.WriteLine("Программа автоматически добавит форматированную стоку в буффер обмена");
             Console.WriteLine("Например:");
-            Console.WriteLine("> cHeaders.exe functions definitions");
-            Console.WriteLine("Результат:");
+            Console.WriteLine("> cHeaders functions prototypes");
+            Console.WriteLine("Вывод:");
+            Console.WriteLine("/* -------------------------- FUNCTIONS PROTOTYPES -------------------------- */");
+            Console.WriteLine("Результат сокпирован в буффер обмена");
             Console.WriteLine("В буффер обмена скопируется:");
+            Console.WriteLine("/* -------------------------- FUNCTIONS PROTOTYPES -------------------------- */");
             Console.WriteLine("До встречи!");
         }
 
